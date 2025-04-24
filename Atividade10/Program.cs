@@ -1,24 +1,24 @@
 ﻿class Program
 {
-    public static void Main()// Se for menor de idade OU tiver comportamento suspeito, exiba "Monitorar".
+    public static void Main()
     {
-        Console.WriteLine("sua nota");
-        int num = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("idade");
+        int idade = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("sua frequencia");
-        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("comportamento suspeito");
+        string num2 = Console.ReadLine();
 
 
-        bool resultado = num >= 6 && num >= 75;
+        bool resultado = idade < 18 && num2 == "sim";
 
         if (resultado)
         {
-            Console.WriteLine("Aprovado");
+            Console.WriteLine("Monitorar");
         }
 
         else
         {
-            Console.WriteLine("Reprovado");
+            Console.WriteLine("Não monitorar");
         }
     }
 }

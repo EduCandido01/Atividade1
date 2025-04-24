@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static void Main()// A promoção é válida se (cadastrado E cupom válido) E NÃO já usou o cupom.
+    public static void Main()
     {
         Console.WriteLine("ja tem cadastro: sim ou não?");
         string num = Console.ReadLine();

@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static void Main()// Acesso permitido das 6h às 22h (inclusive). Caso contrário, exiba "".
+    public static void Main()
     {
         Console.WriteLine("horario atual");
         int num = Convert.ToInt32(Console.ReadLine());

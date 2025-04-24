@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static void Main()// Está isento se a idade for maior que 65 OU a renda for menor que 2000.
+    public static void Main()
     {
         Console.WriteLine("escreva o número");
         int num = Convert.ToInt32(Console.ReadLine());

@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static void Main()// Aprovado se nota >= 6 E frequencia >= 75
+    public static void Main()
     {
         Console.WriteLine("sua nota");
         int num = Convert.ToInt32(Console.ReadLine());

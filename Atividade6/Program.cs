@@ -1,6 +1,6 @@
 ﻿class Program
 {
-    public static void Main()// Só entra se tiver ingresso E documento válido.
+    public static void Main()
     {
         Console.WriteLine("tem ingreço: sim ou não?");
         string num = Console.ReadLine();
