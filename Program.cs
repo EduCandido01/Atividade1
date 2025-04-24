@@ -14,7 +14,7 @@
 
         else
         {
-            Console.WriteLine("debtro do intervalo");
+            Console.WriteLine("dentro do intervalo");
         }
     }
 }
