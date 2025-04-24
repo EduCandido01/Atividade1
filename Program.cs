@@ -1,5 +1,5 @@
 ﻿class Program
-{
+{     
     public static void Main()
     {
         Console.WriteLine("escreva o número");
@@ -10,11 +10,6 @@
         if (resultado)
         {
             Console.WriteLine("fora do intervalo");
-        }
-
-        else
-        {
-            Console.WriteLine("dentro do intervalo");
         }
     }
 }
