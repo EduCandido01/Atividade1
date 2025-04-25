@@ -11,7 +11,7 @@
 
         bool resultado = idade < 18 && comport == "sim";
 
-        if (resultado)
+        if (resultado) 
         {
             Console.WriteLine("Monitorar");
         }
