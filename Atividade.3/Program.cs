@@ -6,7 +6,7 @@
         Console.WriteLine("escreva seu cargo");
         string verdade = Console.ReadLine();
 
-        bool resultado = verdade == "admin" && verdade == "supervisor";
+        bool resultado = verdade == "admin" || verdade == "supervisor";
 
         if (resultado)
         {
