@@ -3,15 +3,15 @@
     public static void Main()
     {
         Console.WriteLine("ja tem cadastro: sim ou não?");
-        string num = Console.ReadLine();
+        string cadastro = Console.ReadLine();
 
         Console.WriteLine("o cupom é valido: sim ou não?");
-        string num2 = Console.ReadLine();
+        string cupom = Console.ReadLine();
 
         Console.WriteLine("o cupom ja foi usado: sim ou não?");
-        string num3 = Console.ReadLine();
+        string cupom2 = Console.ReadLine();
 
-        bool resultado = num == "sim" && num2 == "sim" && num3 == "sim";
+        bool resultado = cadastro == "sim" && cupom == "sim" && cupom2 == "sim";
 
         if (resultado)
         {

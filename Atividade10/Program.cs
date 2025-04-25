@@ -6,10 +6,10 @@
         int idade = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("comportamento suspeito");
-        string num2 = Console.ReadLine();
+        string comport = Console.ReadLine();
 
 
-        bool resultado = idade < 18 && num2 == "sim";
+        bool resultado = idade < 18 && comport == "sim";
 
         if (resultado)
         {

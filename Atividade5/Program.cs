@@ -3,13 +3,13 @@
     public static void Main()
     {
         Console.WriteLine("você é cliente VIP? sim ou não?");
-        string num = Console.ReadLine();
+        string escre = Console.ReadLine();
 
-        Console.WriteLine("Número de compra");
-        int num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Número de compras");
+        int num = Convert.ToInt32(Console.ReadLine());
 
 
-        bool resultado = num == "não" && num2 < 10;
+        bool resultado = escre == "não" && num < 10;
 
         if (!resultado)
         {

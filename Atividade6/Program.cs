@@ -3,13 +3,13 @@
     public static void Main()
     {
         Console.WriteLine("tem ingreço: sim ou não?");
-        string num = Console.ReadLine();
+        string ingre = Console.ReadLine();
 
         Console.WriteLine("Documento válido: sim ou não?");
-        string num2 = Console.ReadLine();
+        string valid = Console.ReadLine();
 
 
-        bool resultado = num == "sim" && num2 == "sim";
+        bool resultado = ingre == "sim" && valid == "sim";
 
         if (resultado)
         {
